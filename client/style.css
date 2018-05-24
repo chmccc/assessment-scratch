@@ -1,0 +1,50 @@
+* {
+  font-family: Montserrat;
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: azure;
+  box-shadow: 2px 3px #eaeaea;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.3em;
+  justify-content: space-around;
+  margin-top: 10px auto;
+  border: 1px dotted grey;
+}
+#main * {
+  border: 1px dotted grey;
+
+}
+
+#right-container, #left-container {
+  width: 45%;
+}
+
+
+/* FORM */
+
+#new-todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#new-todo-form * {
+  margin: 10px auto;
+}
+
+textarea {
+  font-size: .7em;
+}
+
+/* TO-DO LIST */
+

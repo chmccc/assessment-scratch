@@ -1,0 +1,28 @@
+{
+  "name": "assessment-scratch",
+  "version": "1.0.0",
+  "description": "simple to-do list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chmccc/assessment-scratch.git"
+  },
+  "author": "colin mccarthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chmccc/assessment-scratch/issues"
+  },
+  "homepage": "https://github.com/chmccc/assessment-scratch#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
