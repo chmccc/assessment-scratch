@@ -10,6 +10,7 @@
   justify-content: space-around;
   background-color: azure;
   box-shadow: 2px 3px #eaeaea;
+  margin-bottom: 20px;
 }
 
 #main {
@@ -18,16 +19,20 @@
   flex-wrap: wrap;
   font-size: 1.3em;
   justify-content: space-around;
-  margin-top: 10px auto;
-  border: 1px dotted grey;
 }
-#main * {
-  border: 1px dotted grey;
 
-}
+/* developer mode - borders */
+/* #main * {
+  border: 1px dotted grey;
+} */
 
 #right-container, #left-container {
+  padding: 20px;
   width: 45%;
+}
+
+#left-container p {
+  margin-top: 0px;
 }
 
 
@@ -48,3 +53,8 @@ textarea {
 
 /* TO-DO LIST */
 
+.to-do-item {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
